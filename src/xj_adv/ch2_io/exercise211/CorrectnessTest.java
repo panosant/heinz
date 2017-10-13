@@ -24,7 +24,7 @@ public class CorrectnessTest {
     @Test
     public void testNullValues() throws ClassNotFoundException, IOException {
         testWriteAndRead(new ComplexClass(rand.nextInt(), rand.nextLong(), null,
-                rand.nextBoolean(), null, rand.nextFloat()));
+                rand.nextBoolean(), rand.nextDouble(), rand.nextDouble()));
     }
 
     @Test

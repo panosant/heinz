@@ -1,0 +1,93 @@
+# Chapter 2 (IO):
+
+## Performance:
+- transient
+- primitive
+- Add writeObject() & readObject()
+
+
+### ComplexClass IO optimization: Decrease cpu/user time and streamed data
+#### SerializeTest 1:
+cpu=6779,user=6740,elapsed=12587,memory=774.0MB,bytes streamed=125.4MB
+GCStatistics for filename.vgc
+	durationOfLog=PT0S
+	numberOfGCs=0
+	numberOfYoungGCs=0
+	numberOfOldGCs=0
+	memoryReclaimedDuringYoung=0.000B
+	memoryReclaimedDuringOld=0.000B
+	maxHeapAfterGC=0.000B
+	totalMemoryAllocated=0.000B
+	averageCreationRate=0.00B/s
+	timeInGCs=PT0S
+	timeInYoungGCs=PT0S
+	averageTimeInYoungGCs=DoubleSummaryStatistics{count=0, sum=0.000000, min=Infinity, average=0.000000, max=-Infinity}
+	timeInOldGCs=PT0S
+	percentageOfTimeInGC=0.00%
+
+#### SerializeTest 2:
+cpu=4597,user=4580,elapsed=4931,memory=545.5MB,bytes streamed=104.9MB
+Disclaimer: This is not a robust GC viewer.  Please use JClarity Censum for serious analysis.
+GCStatistics for filename.vgc
+	durationOfLog=PT0S
+	numberOfGCs=0
+	numberOfYoungGCs=0
+	numberOfOldGCs=0
+	memoryReclaimedDuringYoung=0.000B
+	memoryReclaimedDuringOld=0.000B
+	maxHeapAfterGC=0.000B
+	totalMemoryAllocated=0.000B
+	averageCreationRate=0.00B/s
+	timeInGCs=PT0S
+	timeInYoungGCs=PT0S
+	averageTimeInYoungGCs=DoubleSummaryStatistics{count=0, sum=0.000000, min=Infinity, average=0.000000, max=-Infinity}
+	timeInOldGCs=PT0S
+	percentageOfTimeInGC=0.00%
+
+
+### SerializeTest 3:
+cpu=4963,user=4940,elapsed=5506,memory=545.2MB,bytes streamed=104.8MB
+Disclaimer: This is not a robust GC viewer.  Please use JClarity Censum for serious analysis.
+GCStatistics for filename.vgc
+	durationOfLog=PT0S
+	numberOfGCs=0
+	numberOfYoungGCs=0
+	numberOfOldGCs=0
+	memoryReclaimedDuringYoung=0.000B
+	memoryReclaimedDuringOld=0.000B
+	maxHeapAfterGC=0.000B
+	totalMemoryAllocated=0.000B
+	averageCreationRate=0.00B/s
+	timeInGCs=PT0S
+	timeInYoungGCs=PT0S
+	averageTimeInYoungGCs=DoubleSummaryStatistics{count=0, sum=0.000000, min=Infinity, average=0.000000, max=-Infinity}
+	timeInOldGCs=PT0S
+	percentageOfTimeInGC=0.00%
+
+
+# Chapter 2 (NIO):
+
+Instead of InputStream/OutputStream uses:
+
+- FileChannel/AsynchronousFileChannel
+- NetworkChannel
+
+ByteBuffer buffer = ByteBuffer.allocateDirect(1024);
+while (src.read(buffer) != -1) {
+    buffer.flip(); // move the position to the begining and set the limit to the old position
+    dst.write(buffer);
+    buffer.compact(); // compact leftover data
+}
+buffer.flip(); // move the position to the begining and set the limit to the old position
+    while (buffer.hasRemaining()) {
+    dst.write(buffer);
+}
+
+### LittleEndianWrite
+
+RandomAccessFile file = new RandomAccessFile(FILENAME, "rw");
+FileChannel channel = file.getChannel();
+MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, length);
+buffer.order(ByteOrder.LITTLE_ENDIAN);
+buffer.putShort(s1);
+...

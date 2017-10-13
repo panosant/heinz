@@ -1,0 +1,58 @@
+# Chapter 3 (JVM):
+
+## Garbage Collection:
+
+- HEAP: Objects
+- STACK: thread allocation with local vars (default 1 MB)
+
+OutOfMemoryError -> escape analysis
+StackOverflowError -> infinite recursion or set a stack size of 100kb for all threads with -Xss100k
+
+Objects in HEAP:
+1. EDEN
+2. SURVIVOR 1 & 2
+3. TENURED
+4. PERM (meta)
+
+"SENSUM" tool to configure GC policy
+
+Partial GC (elligible young objects in EDEN & SURVIVOR spaces): Just a couple of msecs
+Full GC (elligibile old object in TENURED spaces): Stop The World (STW) task or "Throughput/Concurrent/G1 Collector"!
+
+Escape Analysis (by default since J7)
+-XX:-DoEscapeAnalysis to disable it
+
+### Always log the GC activity to a file!
+
+Monitor memory with -Xloggc:file.vgc -XX:+PrintGCDetails
+
+E.g. java -Xloggc:java2demo.gc -XX:+PrintGCDetails -jar Java2Demo.jar
+
+-XX:+PrintGCDetails -Xloggc:threads.vgc -Xmx50m -> HPjmeter
+-XX:+PrintTenuringDistribution
+-XX:+PrintGCApplicationStoppedTime
+
+### Memory Leaks
+Look for full GCs where memory keeps on going up!!
+Diagnosis: use generational count in JVisualVM or Java Mission Control (JMC)
+
+### JVM Tuning
+Set the initial size of the Java Heap:
+-Xms<nnn> // 2 GB
+
+Set the maximum size of the Java Heap
+-Xmx<nnn> // 4 GB
+
+Set the stack size for all threads
+-Xss<nnn> // 1 MB
+
+Goals:
+- Minimize heap utilization: Eliminate leaks
+- Increase GC efficiency: Less than 5% time spent in GC
+- Minimize GC pause times: Eliminate Full GC
+- Java heap should be smaller than available RAM: Swap space can make performance 10x slower
+
+Dijkstra's Fibonacci algorithm!
+Manage Blocker
+
+
