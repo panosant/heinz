@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="bc3ed3f6-cc9b-4d89-b28f-ae520dc4d4ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch2_io/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch2_io/Notes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/ComplexClass.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/ComplexClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/CorrectnessTest.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/CorrectnessTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise221/LittleEndianWrite.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise221/LittleEndianWrite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiator.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xj-adv-j8.iws" afterPath="$PROJECT_DIR$/xj-adv-j8.iws" />
     </list>
     <ignored path="xj-adv-j8.iws" />
@@ -77,11 +74,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes">
+      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagicClassInstantiator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagicTestClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicTestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagicClassInstantiatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -126,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution531/Pixel.java" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution531/PixelTest.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise531/PixelTest.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/solution221/LittleEndianWrite.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise221/asdf.java" />
@@ -177,6 +202,8 @@
         <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise221/LittleEndianWrite.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/Notes" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiator.java" />
       </list>
     </option>
   </component>
@@ -194,8 +221,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1366" />
-    <option name="y" value="-4" />
+    <option name="y" value="764" />
     <option name="width" value="1366" />
     <option name="height" value="727" />
   </component>
@@ -422,6 +448,14 @@
               <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4_reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise421" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
               <item name="ch5_datastructs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -568,7 +602,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciCalculatorTest.test40">
+  <component name="RunManager" selected="Application.MagicClassInstantiatorTest">
     <configuration name="FibonacciCalculatorTest" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -644,30 +678,24 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LittleEndianWriteTest" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+    <configuration name="MagicClassInstantiatorTest" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="xj_adv.ch2_io.exercise221.*" />
+          <option name="PATTERN" value="xj_adv.ch4_reflection.exercise421.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="xj-adv-j8" />
+      <option name="MAIN_CLASS_NAME" value="xj_adv.ch4_reflection.exercise421.MagicClassInstantiatorTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="xj_adv.ch2_io.exercise221" />
-      <option name="MAIN_CLASS_NAME" value="xj_adv.ch2_io.exercise221.LittleEndianWriteTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <module name="xj-adv-j8" />
       <envs />
-      <patterns />
     </configuration>
     <configuration name="ThreadMemoryTest" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1084,19 +1112,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LittleEndianWriteTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreadMemoryTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test20" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test40" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ThreadMemoryTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test20" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test40" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MagicClassInstantiatorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test40" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test20" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ThreadMemoryTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LittleEndianWriteTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MagicClassInstantiatorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test40" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test20" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ThreadMemoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1171,7 +1199,7 @@
       <workItem from="1496379812440" duration="651000" />
       <workItem from="1505896884299" duration="56000" />
       <workItem from="1507840166078" duration="1965000" />
-      <workItem from="1507879057569" duration="18039000" />
+      <workItem from="1507879057569" duration="20387000" />
     </task>
     <servers />
   </component>
@@ -1208,7 +1236,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83418000" />
+    <option name="totallyTimeSpent" value="85766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1220,7 +1248,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1366" y="-4" width="1366" height="727" extended-state="6" />
+    <frame x="0" y="764" width="1366" height="727" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1232,7 +1260,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30936456" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30936456" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5140665" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1342,27 +1370,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/solution721/DateFormattingHorrorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/solution721/DateFormattingHorror.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/solution211/SerializeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/solution211/CorrectnessTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1466,13 +1473,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1655,6 +1655,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicTestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
           <folding />
         </state>
       </provider>
