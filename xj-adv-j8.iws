@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="bc3ed3f6-cc9b-4d89-b28f-ae520dc4d4ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xj_adv/ch2_io/Notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/Notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xj_adv/ch6_exceptions/Notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xj_adv/ch7_datetime/Notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xj-adv-j8.ipr" afterPath="$PROJECT_DIR$/xj-adv-j8.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xj-adv-j8.iws" afterPath="$PROJECT_DIR$/xj-adv-j8.iws" />
-    </list>
+    <list default="true" readonly="true" id="bc3ed3f6-cc9b-4d89-b28f-ae520dc4d4ac" name="Default" comment="" />
     <ignored path="xj-adv-j8.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -22,6 +12,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -77,11 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ComplexClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComplexClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/ComplexClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,86 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/Notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch6_exceptions/Notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/Notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CorrectnessTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/CorrectnessTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/SerializeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -460,6 +373,14 @@
               <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2_io" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise211" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
               <item name="ch3_memory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -524,7 +445,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="editor.config.accepted" value="true" />
@@ -1172,7 +1093,7 @@
       <workItem from="1496298991673" duration="297000" />
       <workItem from="1496379812440" duration="651000" />
       <workItem from="1505896884299" duration="56000" />
-      <workItem from="1507840166078" duration="1672000" />
+      <workItem from="1507840166078" duration="1965000" />
     </task>
     <servers />
   </component>
@@ -1209,7 +1130,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65086000" />
+    <option name="totallyTimeSpent" value="65379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1222,6 +1143,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1366" y="-4" width="1366" height="727" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1236,7 +1158,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5140665" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.3728" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.3728" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1578,22 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/ComplexClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1638,6 +1545,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/ComplexClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
