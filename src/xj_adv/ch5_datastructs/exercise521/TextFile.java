@@ -25,24 +25,51 @@ public class TextFile implements Iterable<String> {
         } catch (FileNotFoundException e) {
             throw new IllegalStateException(e);
         }
+
         // Create an anonymous inner class for the iterator
         return new Iterator<String>() {
-            // todo: create a field for the next line
-
-            // todo: use a boolean to remember if you read file
+            private String nextLine;
+            private boolean islineParsed = false;
 
             /**
              * Calling hasNext() repeatedly should not advance the file.
              */
             public boolean hasNext() {
-                // todo: implement method to read line from file
-                // todo: null means you have reached the end
-                throw new UnsupportedOperationException("todo");
+                try {
+                    // Read lines from file
+                    if (!islineParsed) {
+                        nextLine = in.readLine();
+                        islineParsed = true;
+                    }
+
+                    // null means you have reached the end
+                    if (nextLine == null) {
+                        try {
+                            in.close();
+                        } catch (IOException ex) {
+                            throw new UncheckedIOException(ex);
+                        }
+                    }
+                } catch (IOException ioe) {
+                    islineParsed = true;
+                    nextLine = null;
+                    try {
+                        in.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                return nextLine != null;
             }
 
             public String next() {
-                // todo: return the next line if there is one
-                throw new UnsupportedOperationException("todo");
+                if (!hasNext()) {
+                    throw new NoSuchElementException();
+                }
+                islineParsed = false;
+
+                return nextLine;
             }
 
             public void remove() {

@@ -55,4 +55,6 @@ Goals:
 Dijkstra's Fibonacci algorithm!
 Manage Blocker
 
-
+### Monitoring Tools
+- Thread Dump
+- Heap Dump

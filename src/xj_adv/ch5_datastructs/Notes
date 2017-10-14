@@ -1,0 +1,97 @@
+# Chapter 5 (Data Structures)
+
+## Data Complecity: (Big O notation)
+
+// TODO
+
+## Time Complexity: (Big O notation)
+
+• constant time O(k):              Solved in constant # of steps (k)
+• logarithmic time O(log n):       At every step, problem halves
+• linear time O(n):                problem of size n can be solved in n steps
+• quasilinear time O(n×log n):     almost linear, e.g. merge sort
+• quadratic time O(n^2):           problem can only be solved in n2 steps
+• exponential time O(2^n):         good luck!
+
+### Sorting Arrays and Lists: O(n×log n)
+• Timsort (named after Tim Peters), better for partially sorted lists
+• Dual-pivot quick sort for primitive arrays
+• Arrays.parallelSort() uses ForkJoin (J8)
+
+– Bubble sort is O(n^2 )
+– Quick sort can degrade to O(n^2 )
+
+### Searching Algorithms in Java
+• Binary search arrays: O(log n): "Array must be sorted already"
+• Search Collection: O(n)
+
+• Lookup TreeMap: O(log n)
+• Lookup HashMap: O(1)
+– Although it can degrade to O(n) with a really bad hashCode() method
+– Java 8 HashMap degrades to O(log n) if key is Comparable
+
+
+### Spliterator<T>: Java 8 interface, used to create streams
+
+– Can have different characteristics
+• SIZED, ORDERED, DISTINCT, etc.
+– Allows splitting to support recursive decomposition for fork/join
+• Parallel streams
+
+- Spliterators Methods:
+
+int estimateSize()
+int characteristics()
+boolean tryAdvance(Consumer action)
+Spliterator<T> trySplit()
+
+- Spliterators Facade:
+
+emptySpliterator()
+spliterator(Object[] array, int additionalCharacteristics)
+...
+
+
+## Hashing:
+
+Target Bucket: (Object's hash code % arrayOfBuckets.length)
+Object Equality: obj1.equals(obj2) in the same bucket
+
+Perfect Hash codes means that each object has each own different Hash code!
+
+This is, however, not the case since Object's hashCode() and equals() are often overriden.
+Multiple entries in the same bucket cause (object.hashCode % arrayOfBuckets.length) results same among unequal objects
+
+Since JDK 1.4, the HashMap uses BIT MASKING, thus the size of HashMap is always a power of 2:
+• 2, 4, 8, 16, 32, 64, 128, 256, ...
+
+// J4
+final int hash(Object k) {
+    int h = k.hashCode();
+    h ^= (h >>> 20) ^ (h >>> 12);
+    return h ^ (h >>> 7) ^ (h >>> 4);
+}
+
+// J8
+static final int hash(Object key) {
+    int h;
+    return (key == null) ? 0 :
+    (h = key.hashCode()) ^ (h >>> 16);
+}
+
+In Java 8, they use a binary tree when a lot of keys map to the same bucket.
+
+! Always implement both equals() and hashCode()
+! Key identity should rely on immutable fields
+– And since Java 8, also make your class Comparable: Used for balancing the binary tree if you have clashes
+
+### equals()
+- Shall compare ALL important object's variables
+### hashCode()
+- Shall calculate a hashCode based on any-all object's variables that are checked in equals()
+
+### Immutablity:
+- final obj
+- obj's state does not change after construction
+- obj's reference is not escaped before construction
+
