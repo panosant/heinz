@@ -27,6 +27,10 @@ public class Programmer implements Comparable<Programmer> {
         return Collections.unmodifiableCollection(languages);
     }
 
+    public int getNumberOfLanguages() {
+        return getLanguages().size();
+    }
+
     public String toString() {
         return name +
                 ", salary=" + salary +
@@ -38,9 +42,26 @@ public class Programmer implements Comparable<Programmer> {
     }
 
     // TODO: sort by biggest salary, then largest number of languages, then name
-    public static final Comparator<Programmer> RICH_SMART_ORDER =
-            Comparator.naturalOrder();
+    public static final Comparator<Programmer> RICH_SMART_ORDER = (programmer1, programmer2) -> {
+        int comparison;
+        int salaryComparison = Double.valueOf(programmer1.getSalary()).compareTo(programmer2.getSalary());
+        comparison = salaryComparison;
+        if (comparison == 0 ) {
+            int languageComparison = Integer.valueOf(programmer1.getLanguages().size()).compareTo(programmer2.getLanguages().size());
+
+            comparison = languageComparison;
+            if (comparison == 0 ) {
+                comparison = programmer1.getName().compareTo(programmer2.getName());
+            }
+        }
+        return comparison;
+    };
+
     // TODO: sort by largest number of languages, then biggest salary, then name
-    public static final Comparator<Programmer> SMART_RICH_ORDER =
-            Comparator.naturalOrder();
+    // Comparator.naturalOrder();
+    public static final Comparator<Programmer> SMART_RICH_ORDER = Comparator
+                    .<Programmer>comparingInt(p -> p.getLanguages().size())
+                    .thenComparingDouble(Programmer::getSalary)
+                    .reversed()
+                    .thenComparing(Programmer::getName);
 }

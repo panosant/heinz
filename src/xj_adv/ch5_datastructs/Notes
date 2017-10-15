@@ -51,6 +51,20 @@ emptySpliterator()
 spliterator(Object[] array, int additionalCharacteristics)
 ...
 
+### Design Patterns
+
+- https://github.com/iluwatar/java-design-patterns
+- https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries
+- GoF
+- https://github.com/evangelist64/java-concurrency/blob/master/Java%20concurrency%20in%20practice.pdf
+- Doug Lea (StampedLock.java, Concurrency in practice)
+
+### Immutablity
+- final obj
+- obj's state does not change after construction
+- obj's reference is not escaped before construction
+
+String.hash member variable is not final! -> Constant Pool of literals
 
 ## Hashing:
 
@@ -85,13 +99,19 @@ In Java 8, they use a binary tree when a lot of keys map to the same bucket.
 ! Key identity should rely on immutable fields
 – And since Java 8, also make your class Comparable: Used for balancing the binary tree if you have clashes
 
-### equals()
+### equals(Object o)
 - Shall compare ALL important object's variables
 ### hashCode()
 - Shall calculate a hashCode based on any-all object's variables that are checked in equals()
+### compareTo(Object o)
+- Shall implemented in case natural order is not desired
 
-### Immutablity:
-- final obj
-- obj's state does not change after construction
-- obj's reference is not escaped before construction
+### Sorting
+
+Arrays.sort()
+Collections.sort()
+Collections.sort(Comparator comparator)
+
+### Queue, BlockingQueue
+
 

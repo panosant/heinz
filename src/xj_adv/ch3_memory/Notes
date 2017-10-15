@@ -36,7 +36,7 @@ E.g. java -Xloggc:java2demo.gc -XX:+PrintGCDetails -jar Java2Demo.jar
 Look for full GCs where memory keeps on going up!!
 Diagnosis: use generational count in JVisualVM or Java Mission Control (JMC)
 
-### JVM Tuning
+### JVM Tuning/Switches
 Set the initial size of the Java Heap:
 -Xms<nnn> // 2 GB
 
@@ -58,3 +58,9 @@ Manage Blocker
 ### Monitoring Tools
 - Thread Dump
 - Heap Dump
+
+## Memory Optimization
+
+- Java Performance Tuning Course - Kirk Pepperdine
+- Read "Friends of JClarity Mailing List"
+- Export and Roll GC Logs

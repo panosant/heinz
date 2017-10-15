@@ -1,0 +1,14 @@
+# Chapter 6 (Throable: Exceptions and Errors)
+
+Liskov Substitution Principle (LSP)
+
+You might have seen a NullPointerException without a stack trace in your log?
+-XX:-OmitStackTraceInFastThrow
+
+ThreadLocalRandom.current()...
+
+javap -c java.lang.Integer
+
+Decompiler: jad
+E.g.:
+jad -noinner Main.class

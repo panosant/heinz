@@ -2,6 +2,9 @@ package xj_adv.ch5_datastructs.exercise531;
 
 import java.util.*;
 
+/*
+ *  1024x768 screen resolution, but also for the new iMac 5120x2880
+ */
 public class Pixel {
     private final int x, y;
 
@@ -21,6 +24,9 @@ public class Pixel {
 
     @Override
     public int hashCode() {
-        return Objects.hash(x, y);
+        return x * 2880 + y;
+        // return x << 12 ^ y;
+        // return x << 16 ^ y;
+        // return Objects.hash(x, y);
     }
 }

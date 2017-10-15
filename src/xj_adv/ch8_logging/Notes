@@ -1,0 +1,20 @@
+# Chapter 8 (Logging)
+
+Logging APIs:
+- logback
+- log4J
+- java.util.logging
+
+Wrappers over the logging frameworks:
+- SLF4J
+- Jakarta (obsolete)
+
+### Best Practices: Logging Factory
+
+public class LoggerFactory {
+    public static Logger getLogger(MethodHandles.Lookup lookup) {
+        return Logger.getLogger(lookup.lookupClass().getName());
+    }
+}
+
+private final static Logger log = LoggerFactory.getLogger(MethodHandles.lookup());

@@ -1,0 +1,5 @@
+# Chapter 7 (DateTime and TMZ)
+
+java.text.SimpleDateFormatter       -> not-thread-safe, slow, "lenient"
+java.time.format.DateTimeFormatter  -> .ofPattern("dd.MM.yyyy")
+

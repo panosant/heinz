@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="bc3ed3f6-cc9b-4d89-b28f-ae520dc4d4ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filename.vgc" afterPath="$PROJECT_DIR$/filename.vgc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filename.vgc.0" afterPath="$PROJECT_DIR$/filename.vgc.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filename.vgc.1" afterPath="$PROJECT_DIR$/filename.vgc.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filename.vgc.2" afterPath="$PROJECT_DIR$/filename.vgc.2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filename.vgc.3" afterPath="$PROJECT_DIR$/filename.vgc.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filename.vgc.4" afterPath="$PROJECT_DIR$/filename.vgc.4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/Notes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise521/TextFile.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise521/TextFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xj-adv-j8.iws" afterPath="$PROJECT_DIR$/xj-adv-j8.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise531/Pixel.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise531/Pixel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise541/Programmer.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise541/Programmer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch6_exceptions/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch6_exceptions/Notes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch6_exceptions/exercise631/ThreadPool.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch6_exceptions/exercise631/ThreadPool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch7_datetime/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch7_datetime/Notes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch7_datetime/exercise721/DateFormattingHorror.java" afterPath="$PROJECT_DIR$/src/xj_adv/ch7_datetime/exercise721/DateFormattingHorror.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes" afterPath="$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes" />
     </list>
     <ignored path="xj-adv-j8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,10 +87,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Notes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/Notes">
+        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="63" column="50" lean-forward="false" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,6 +127,13 @@
       <find>stream()</find>
       <find>charact</find>
       <find>::isn</find>
+      <find>null</find>
+      <find>NullPointerException</find>
+      <find>ThreadPoolTest</find>
+      <find>submit</find>
+      <find>nullpoint</find>
+      <find>Nullpoint</find>
+      <find>parse</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -125,12 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise221/asdf.java" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch3_memory/solution321/FibonacciCalculator.java" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch3_memory/solution321b/FibonacciCalculator.java" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise521/TextFileTest.java" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution521/TextFileTest.java" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution521b/TextFileTest.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution521c/TextFileTest.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution521d/TextFileTest2.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution521/TextFile.java" />
@@ -145,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/xj_adv/ch3_memory/solution321b/FibonacciCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch7_datetime/exercise721/DateFormattingHorrorTest.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch7_datetime/solution721/DateFormattingHorrorTest.java" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch7_datetime/exercise721/DateFormattingHorror.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch7_datetime/solution721/DateFormattingHorror.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/exercise211/SerializeTest.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/solution211/CorrectnessTest.java" />
@@ -173,9 +193,16 @@
         <option value="$PROJECT_DIR$/src/xj_adv/ch2_io/Notes" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch4_reflection/exercise421/MagicClassInstantiator.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch4_reflection/Notes" />
-        <option value="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise521/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise531/Pixel.java" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise541/Programmer.java" />
         <option value="$PROJECT_DIR$/src/xj_adv/ch5_datastructs/Notes" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch6_exceptions/exercise631/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch6_exceptions/Notes" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch7_datetime/Notes" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch7_datetime/exercise721/DateFormattingHorror.java" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes" />
+        <option value="$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes" />
       </list>
     </option>
   </component>
@@ -193,10 +220,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1367" />
-    <option name="y" value="-11" />
-    <option name="width" value="1368" />
-    <option name="height" value="735" />
+    <option name="y" value="764" />
+    <option name="width" value="1366" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -364,54 +390,33 @@
               <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
-              <item name="ch5_datastructs" type="462c0819:PsiDirectoryNode" />
+              <item name="ch3_memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="ch7_datetime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="ch8_logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upstream-2017-seminar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xj_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="ch8_logging" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise811" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.9 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.9 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.9 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.9 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.9 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xj-adv-j8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.9 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,7 +443,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="editor.config.accepted" value="true" />
@@ -478,22 +483,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TextFileTest">
-    <configuration name="FibonacciCalculatorTest.test20" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DateFormattingHorrorTest">
+    <configuration name="DateFormattingHorrorTest" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="xj_adv.ch3_memory.exercise321.*" />
+          <option name="PATTERN" value="xj_adv.ch7_datetime.exercise721.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="xj-adv-j8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="xj_adv.ch3_memory.exercise321" />
-      <option name="MAIN_CLASS_NAME" value="xj_adv.ch3_memory.exercise321.FibonacciCalculatorTest" />
-      <option name="METHOD_NAME" value="test20" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Xloggc:file.vgc" />
+      <option name="PACKAGE_NAME" value="xj_adv.ch7_datetime.exercise721" />
+      <option name="MAIN_CLASS_NAME" value="xj_adv.ch7_datetime.exercise721.DateFormattingHorrorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Xloggc:filename.vgc" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -504,21 +509,21 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FibonacciCalculatorTest.test40" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadPoolTest" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="xj_adv.ch3_memory.exercise321.*" />
+          <option name="PATTERN" value="xj_adv.ch6_exceptions.exercise631.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="xj-adv-j8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="xj_adv.ch3_memory.exercise321" />
-      <option name="MAIN_CLASS_NAME" value="xj_adv.ch3_memory.exercise321.FibonacciCalculatorTest" />
-      <option name="METHOD_NAME" value="test40" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Xloggc:file.vgc" />
+      <option name="PACKAGE_NAME" value="xj_adv.ch6_exceptions.exercise631" />
+      <option name="MAIN_CLASS_NAME" value="xj_adv.ch6_exceptions.exercise631.ThreadPoolTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -529,57 +534,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MagicClassInstantiatorTest" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadPoolTest.testAssertions" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="xj_adv.ch4_reflection.exercise421.*" />
+          <option name="PATTERN" value="xj_adv.ch6_exceptions.exercise631.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="xj_adv.ch4_reflection.exercise421.MagicClassInstantiatorTest" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <module name="xj-adv-j8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="xj_adv.ch6_exceptions.exercise631" />
+      <option name="MAIN_CLASS_NAME" value="xj_adv.ch6_exceptions.exercise631.ThreadPoolTest" />
+      <option name="METHOD_NAME" value="testAssertions" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="xj-adv-j8" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
-    <configuration name="TextFileTest" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadPoolTest.testConstructorArguments" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="xj_adv.ch5_datastructs.exercise521.*" />
+          <option name="PATTERN" value="xj_adv.ch6_exceptions.exercise631.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="xj_adv.ch5_datastructs.exercise521.TextFileTest" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <module name="xj-adv-j8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="xj_adv.ch6_exceptions.exercise631" />
+      <option name="MAIN_CLASS_NAME" value="xj_adv.ch6_exceptions.exercise631.ThreadPoolTest" />
+      <option name="METHOD_NAME" value="testConstructorArguments" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="xj-adv-j8" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
-    <configuration name="TextFileTest.testRead" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadPoolTest.testJobs" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="xj_adv.ch5_datastructs.exercise521.*" />
+          <option name="PATTERN" value="xj_adv.ch6_exceptions.exercise631.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="xj-adv-j8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="xj_adv.ch5_datastructs.exercise521" />
-      <option name="MAIN_CLASS_NAME" value="xj_adv.ch5_datastructs.exercise521.TextFileTest" />
-      <option name="METHOD_NAME" value="testRead" />
+      <option name="PACKAGE_NAME" value="xj_adv.ch6_exceptions.exercise631" />
+      <option name="MAIN_CLASS_NAME" value="xj_adv.ch6_exceptions.exercise631.ThreadPoolTest" />
+      <option name="METHOD_NAME" value="testJobs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PARAMETERS" value="" />
@@ -988,19 +1005,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test20" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test40" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MagicClassInstantiatorTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TextFileTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TextFileTest.testRead" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest.testJobs" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest.testAssertions" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest.testConstructorArguments" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DateFormattingHorrorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TextFileTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TextFileTest.testRead" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MagicClassInstantiatorTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test40" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciCalculatorTest.test20" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DateFormattingHorrorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest.testConstructorArguments" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest.testAssertions" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ThreadPoolTest.testJobs" />
       </list>
     </recent_temporary>
   </component>
@@ -1077,44 +1094,44 @@
       <workItem from="1507840166078" duration="1965000" />
       <workItem from="1507879057569" duration="20634000" />
       <workItem from="1507965142351" duration="573000" />
-      <workItem from="1507967060200" duration="8063000" />
+      <workItem from="1507967060200" duration="23644000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LittleEndianWriteTest - 2017.10.13 at 14h 35m 09s.xml">
-      <configuration name="LittleEndianWriteTest" configurationId="JUnit" />
+    <history-entry file="DateFormattingHorrorTest - 2017.10.14 at 17h 46m 35s.xml">
+      <configuration name="DateFormattingHorrorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LittleEndianWriteTest - 2017.10.13 at 14h 37m 07s.xml">
-      <configuration name="LittleEndianWriteTest" configurationId="JUnit" />
+    <history-entry file="DateFormattingHorrorTest - 2017.10.14 at 17h 46m 53s.xml">
+      <configuration name="DateFormattingHorrorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LittleEndianWriteTest_testFileSize - 2017.10.13 at 14h 34m 57s.xml">
-      <configuration name="LittleEndianWriteTest.testFileSize" configurationId="JUnit" />
+    <history-entry file="DateFormattingHorrorTest - 2017.10.14 at 17h 47m 11s.xml">
+      <configuration name="DateFormattingHorrorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LittleEndianWriteTest_testFileSize - 2017.10.13 at 14h 36m 22s.xml">
-      <configuration name="LittleEndianWriteTest.testFileSize" configurationId="JUnit" />
+    <history-entry file="DateFormattingHorrorTest - 2017.10.14 at 17h 47m 44s.xml">
+      <configuration name="DateFormattingHorrorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LittleEndianWriteTest_testFileSize - 2017.10.13 at 14h 36m 51s.xml">
-      <configuration name="LittleEndianWriteTest.testFileSize" configurationId="JUnit" />
+    <history-entry file="DateFormattingHorrorTest - 2017.10.14 at 17h 48m 23s.xml">
+      <configuration name="DateFormattingHorrorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LittleEndianWriteTest_testFileSize_(1) - 2017.10.13 at 14h 34m 34s.xml">
-      <configuration name="LittleEndianWriteTest.testFileSize (1)" configurationId="JUnit" />
+    <history-entry file="DateFormattingHorrorTest - 2017.10.14 at 17h 48m 46s.xml">
+      <configuration name="DateFormattingHorrorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextFileTest_testRead - 2017.10.14 at 11h 24m 30s.xml">
-      <configuration name="TextFileTest.testRead" configurationId="JUnit" />
+    <history-entry file="ThreadPoolTest - 2017.10.14 at 17h 08m 07s.xml">
+      <configuration name="ThreadPoolTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextFileTest_testRead - 2017.10.14 at 11h 45m 51s.xml">
-      <configuration name="TextFileTest.testRead" configurationId="JUnit" />
+    <history-entry file="ThreadPoolTest - 2017.10.14 at 17h 08m 55s.xml">
+      <configuration name="ThreadPoolTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextFileTest_testRead - 2017.10.14 at 11h 47m 04s.xml">
-      <configuration name="TextFileTest.testRead" configurationId="JUnit" />
+    <history-entry file="ThreadPoolTest - 2017.10.14 at 17h 10m 54s.xml">
+      <configuration name="ThreadPoolTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextFileTest_testRead - 2017.10.14 at 11h 51m 20s.xml">
-      <configuration name="TextFileTest.testRead" configurationId="JUnit" />
+    <history-entry file="ThreadPoolTest - 2017.10.14 at 17h 12m 29s.xml">
+      <configuration name="ThreadPoolTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94649000" />
+    <option name="totallyTimeSpent" value="110230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1126,7 +1143,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1367" y="-11" width="1368" height="735" extended-state="6" />
+    <frame x="0" y="764" width="1366" height="727" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1145,6 +1162,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19772728" sideWeight="0.3728" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7207358" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1166,7 +1184,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7208437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1248,111 +1265,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/src.zip!/java/nio/file/Paths.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/src.zip!/java/nio/file/FileVisitor.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/src.zip!/java/nio/file/Files.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/src.zip!/java/io/File.java" />
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/solution222/BigLineSpliterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/solution222/BigLineSpliteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/solution222/FileChannelSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/solution222/GenerateLargeFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch2_io/solution222/LineInFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/date.vgc" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/src.zip!/java/lang/SafeVarargs.java" />
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise522/TextFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/src.zip!/java/util/Spliterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise523/ObjectStreamSpliteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="123" column="1" lean-forward="false" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution523/ObjectStreamSpliteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch6_exceptions/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-9-openjdk-amd64/lib/src.zip!/java.base/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
@@ -1448,6 +1360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1497,14 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,10 +1469,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution531/Pixel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise531/PixelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise531/Pixel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise541/ProgrammerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/exercise541/Programmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#758#759#0" expanded="false" />
+            <element signature="e#802#803#0" expanded="false" />
+            <element signature="e#1989#2001#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-openjdk-amd64/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/solution541/Programmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="e#1303#1315#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/xj_adv/ch5_datastructs/Notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-openjdk-amd64/lib/src.zip!/java.base/java/lang/ThreadGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-openjdk-amd64/lib/src.zip!/java.base/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="261" column="6" lean-forward="false" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch6_exceptions/solution631/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch6_exceptions/exercise631/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch6_exceptions/exercise631/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="38" column="68" lean-forward="true" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch6_exceptions/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-openjdk-amd64/lib/src.zip!/java.base/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="171" column="22" lean-forward="false" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/solution721/DateFormattingHorror.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/exercise721/DateFormattingHorrorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/exercise721/DateFormattingHorror.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch8_logging/exercise811/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch7_datetime/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch8_logging/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xj_adv/ch3_memory/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="63" column="50" lean-forward="false" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
           <folding />
         </state>
       </provider>

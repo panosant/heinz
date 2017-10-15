@@ -14,7 +14,12 @@ public class ThreadPool {
      *                 the maximum allowed
      * @see #MAXIMUM_POOL_SIZE
      */
-    public ThreadPool(int poolSize) {
+    public ThreadPool(int poolSize) throws IllegalArgumentException {
+
+        if (poolSize <= 0 || poolSize > ThreadPool.MAXIMUM_POOL_SIZE) {
+            throw new IllegalArgumentException();
+        }
+
         for (int i = 0; i < poolSize; i++) {
             Worker worker = new Worker(group, "Worker" + i);
             worker.setDaemon(false);
@@ -24,13 +29,22 @@ public class ThreadPool {
 
     /**
      * @param job
+     * @throws NullPointerException
      */
     public void submit(Runnable job) {
-        runQueue.offer(job); // will always be true
+        if (job == null) {
+            throw new NullPointerException();
+        }
+
+        boolean result = runQueue.offer(job); // will always be true
+        assert result : "Job submit failed!";
     }
 
     private Runnable take() throws InterruptedException {
-        return runQueue.take(); // will never be null
+        Runnable runnable = runQueue.take(); // will never be null
+        assert runnable != null : "Consumption from BlockingQueue failed!";
+
+        return runnable;
     }
 
     public int getRunQueueLength() {
@@ -45,6 +59,9 @@ public class ThreadPool {
     private class Worker extends Thread {
         public Worker(ThreadGroup group, String name) {
             super(group, name); // group and name cannot be null
+
+            assert group != null : "Group was null!";
+            assert name != null : "Name was null!";
         }
 
         public void run() {
